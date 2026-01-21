@@ -1,0 +1,24 @@
+Unified Hamiltonian Simulation of the Polaron-Molecule Transition on a NISQ Processor
+This repository contains the datasets and experimental results associated with the research on simulating quantum phase transitions between polaron and molecule states using Noisy Intermediate-Scale Quantum (NISQ) processors.
+
+Project Overview
+The core of this work involves the implementation of a unified Hamiltonian to observe the transition from a polaron to a molecular bound state. Detecting these transitions on current quantum hardware marks a significant step forward in many-body physics and condensed matter simulations.
+
+The experiments were conducted using the Q-Blue quantum cluster, located in Barcelona, as part of the infrastructure for quantum computing research.
+
+Repository Content
+The repository includes the following .csv data files:
+
+matrix spectral data.csv: Spectral data obtained from the Hamiltonian matrix analysis.
+
+qblue results data.csv: Raw and processed results specifically obtained from the Q-Blue quantum cluster in Barcelona.
+
+ramsey signal data.csv: Ramsey spectroscopy signals used to characterize transition frequencies and coherence times on the chip.
+
+validation data.csv: Control datasets used to validate quantum hardware results against theoretical models and classical simulations.
+
+
+How to Cite:
+If you use this data or the methods described in your research, please cite the original paper:
+
+Catala Calatayud, H. (2026). Unified Hamiltonian Simulation of the Polaron-Molecule Transition on a NISQ Processor. [Link to the paper/DOI].
