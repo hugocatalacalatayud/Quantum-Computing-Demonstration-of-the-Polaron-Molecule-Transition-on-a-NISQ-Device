@@ -4,21 +4,24 @@ This repository contains the datasets and experimental results associated with t
 Project Overview
 The core of this work involves the implementation of a unified Hamiltonian to observe the transition from a polaron to a molecular bound state. Detecting these transitions on current quantum hardware marks a significant step forward in many-body physics and condensed matter simulations.
 
-The experiments were conducted using the Q-Blue quantum cluster, located in Barcelona, as part of the infrastructure for quantum computing research.
+The demostrations were conducted using the Q-Blue & Q-Red quantum cluster, located in Barcelona, as part of the infrastructure for quantum computing research.
 
 Repository Content
 The repository includes the following .csv data files:
 
-matrix spectral data.csv: Spectral data obtained from the Hamiltonian matrix analysis.
+matrix spectral data.csv: Spectral data obtained from the Hamiltonian matrix analysis. (Qblue cluster)
 
-qblue results data.csv: Raw and processed results specifically obtained from the Q-Blue quantum cluster in Barcelona.
+qblue results data.csv: Raw and processed results specifically obtained from the Q-Blue quantum cluster in Barcelona. (Qblue cluster)
 
-ramsey signal data.csv: Ramsey spectroscopy signals used to characterize transition frequencies and coherence times on the chip.
+ramsey signal data.csv: Ramsey spectroscopy signals used to characterize transition frequencies and coherence times on the chip. (Qblue cluster)
 
-validation data.csv: Control datasets used to validate quantum hardware results against theoretical models and classical simulations.
+validation data.csv: Control datasets used to validate quantum hardware results against theoretical models and classical simulations. (Qblue cluster)
 
+spectrum_N*.csv: Spectral data obtanied to see the scalability. (Qred cluster)
+
+dynamics_N*.csv: Dynamic data obtained to see the scalability. (Qred cluster)
 
 How to Cite:
 If you use this data or the methods described in your research, please cite the original paper:
 
-Catalá Calatayud, H., Valero, E., & Rodrigo, G. (2026). Quantum Simulation of the Polaron-Molecule Transition on a NISQ Device. arXiv preprint arXiv:submit/7196424.
+Catalá Calatayud, H., Valero, E., & Rodrigo, G. (2026). Quantum Simulation of the Polaron-Molecule Transition on a NISQ Device. arXiv preprint 	arXiv:2601.18839
