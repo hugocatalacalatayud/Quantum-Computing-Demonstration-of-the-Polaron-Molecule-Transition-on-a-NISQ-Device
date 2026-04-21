@@ -1,4 +1,4 @@
-Unified Hamiltonian Simulation of the Polaron-Molecule Transition on a NISQ Processor
+Quantum Computing Demonstration of the Polaron-Molecule Transition on a NISQ Device
 This repository contains the datasets and experimental results associated with the research on simulating quantum phase transitions between polaron and molecule states using Noisy Intermediate-Scale Quantum (NISQ) processors.
 
 Project Overview
@@ -26,4 +26,4 @@ raw_shots_unmitigated_N10.csv: Is an example of how we obtain the data, this dat
 How to Cite:
 If you use this data or the methods described in your research, please cite the original paper:
 
-Catalá Calatayud, H., Valero, E., & Rodrigo, G. (2026). Quantum Simulation of the Polaron-Molecule Transition on a NISQ Device. arXiv preprint 	arXiv:2601.18839
+Catalá Calatayud, H., Valero, E., & Rodrigo, G. (2026). Quantum Computing Demonstration of the Polaron-Molecule Transition on a NISQ Device. arXiv preprint 	arXiv:2601.18839
