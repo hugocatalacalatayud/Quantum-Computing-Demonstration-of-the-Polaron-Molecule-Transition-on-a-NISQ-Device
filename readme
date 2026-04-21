@@ -17,9 +17,11 @@ ramsey signal data.csv: Ramsey spectroscopy signals used to characterize transit
 
 validation data.csv: Control datasets used to validate quantum hardware results against theoretical models and classical simulations. (Qblue cluster)
 
-spectrum_N*.csv: Spectral data obtanied to see the scalability. (Qred cluster)
+spectrum_N*.csv: Spectral data obtanied to see the scalability. (Qred cluster) (This data have the data treatment done, ZNE, RME...)
 
-dynamics_N*.csv: Dynamic data obtained to see the scalability. (Qred cluster)
+dynamics_N*.csv: Dynamic data obtained to see the scalability. (Qred cluster) (This data have the data treatment done, ZNE, RME...)
+
+raw_shots_unmitigated_N10.csv: Is an example of how we obtain the data, this data doesn´t have any data treatment
 
 How to Cite:
 If you use this data or the methods described in your research, please cite the original paper:
